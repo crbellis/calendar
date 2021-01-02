@@ -6,7 +6,7 @@
     width: 100%;
     height: 100%;
     color: rgb(77, 77, 77);
-    font-size: 5rem;
+    font-size: 2.5rem;
     font-weight: 200;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .Time {
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,18 +67,18 @@
 .WeekDay {
     font-weight: 400;
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 .CalendarDay {
     text-align: center;
-    padding: 25px;
+    padding: 1.5rem;
     border-radius: 5px;
 }
 
 .CurrentDay {
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem;
     background-color: rgb(228, 228, 228);
     border-radius: 5px;
 }

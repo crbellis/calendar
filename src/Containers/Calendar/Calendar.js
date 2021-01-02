@@ -75,18 +75,18 @@ const Calendar = () => {
             </div>
 
             <div className={classes.Calendar}>
-                <div className={classes.WeekDayHeader}>
+                <table className={classes.WeekDayHeader}>
                     <thead className={classes.WeekDayHead}>
                         <tr className={classes.WeekDayHead}>
                             {weekdayShortName}
                         </tr>
                     </thead>
-                </div>
-                <div className={classes.DaysHeader}>
+                </table>
+                <table className={classes.DaysHeader}>
                     <tbody className={classes.CalendarDayHead}>
                         {daysInMonth}
                     </tbody>
-                </div>
+                </table>
             </div>
         </div>
     );
