@@ -10,6 +10,11 @@ To use the app, simply clone this git repo
 git clone https://github.com/crbellis/calendar.git
 ```
 
+Next, install all project dependencies by running 
+```Shell
+npm install
+```
+
 To authenticate with Google Calendars credentials are needed. More information on how to create Google API credentials can be found 
   <a href="https://developers.google.com/calendar/auth">here</a>.
 
