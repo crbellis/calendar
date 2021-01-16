@@ -19,6 +19,13 @@ To authenticate with Google Calendars credentials are needed. More information o
   <a href="https://developers.google.com/calendar/auth">here</a>.
 
 Once credentials have been created, you will need to place the json file in ```./Backend```.
+
+To set up the API, there are a few dependencies that need to be installed. To install, activate your Python venv and run
+
+```Shell
+pip3 install -r ./Backend/requirements.txt
+```
+
 Next, you will need to start the backend and frontend. To do so, run the following commands:
  
 
@@ -41,4 +48,3 @@ Uses system preferences to display light or darkmode version.
 
 <h3>Darkmode</h3>
 <img src="https://github.com/crbellis/calendar/blob/master/example/Darkmode.png" alt="darkmode-png" width="800"/>
-
