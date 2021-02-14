@@ -1,49 +1,51 @@
 .Agenda {
-    margin: 20px;
-    height: 90vh;
-    width: 30%;
-    padding: 1.5rem;
-    background-color: rgba(63, 63, 63, 0.11);
-    border-radius: 5px;
-    backdrop-filter: blur(2px);
+	margin: 20px;
+	height: 90vh;
+	width: 30%;
+	padding: 1.5rem;
+	background-color: rgba(63, 63, 63, 0.11);
+	border-radius: 5px;
+	backdrop-filter: blur(2px);
+	font-size: 1.8em;
+	overflow-y: hidden;
 }
 
 .AgendaHeader {
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    padding: 0px 15px 15px 15px;
-    border-bottom: 1px solid gray;
-    animation: fadeIn 1s ease-in-out;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	padding: 0px 15px 15px 15px;
+	border-bottom: 1px solid gray;
+	animation: fadeIn 1s ease-in-out;
 }
 
 .AgendaDate {
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin: 15px;
-    animation: fadeIn 1s ease-in-out;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin: 15px;
+	animation: fadeIn 1s ease-in-out;
 }
 .Time {
-    font-weight: 200;
-    margin: 10px 25px;
+	font-weight: 200;
+	margin: 10px 25px;
 }
 
 .Summary {
-    margin: 10px 25px;
+	margin: 10px 25px;
 }
 
 .Entry {
-    display: flex;
-    animation: fadeIn 1s ease-in-out;
+	display: flex;
+	animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateX(-100);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
+	0% {
+		opacity: 0;
+		transform: translateX(-100);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

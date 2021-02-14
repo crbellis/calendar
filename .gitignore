@@ -26,3 +26,4 @@ yarn-error.log*
 /Backend/credentials.json
 /Backend/__pycache__/
 token.pickle
+.eslintcache

@@ -50,3 +50,7 @@ def main():
 	for event in events:
 		start = event['start'].get('dateTime', event['start'].get('date'))
 	return {"events": events}, 200
+
+@app.route('/', methods=["GET"])
+def stream():
+	pass
